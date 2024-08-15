@@ -18,12 +18,13 @@ import lombok.Setter;
 @AllArgsConstructor
 @Setter
 @Getter
+
 @Entity
 public class Prestamos {
 
     @Id
-    @GeneratedValue( strategy = GenerationType.IDENTITY)
-    private Long id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private String id;
 
     @ManyToOne
     @JoinColumn(name = "libro_isbn")

@@ -13,11 +13,11 @@ import lombok.Setter;
 @Getter
 
 @Entity
-public class Autor {
+public class Editorial {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     private String id;
+
     private String nombre;
 }

@@ -23,8 +23,8 @@ public class Libro {
 @Id
 private Long isbn;
 private String titulo;
-private String autor;
-private String editorial;
+private Autor autor;
+private Editorial editorial;
 private Integer cantidadEjemplares;
 
 @Enumerated(EnumType.STRING)
