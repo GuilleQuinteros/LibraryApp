@@ -9,11 +9,12 @@ import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
-import lombok.AllArgsConstructor;
+
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@AllArgsConstructor
+@NoArgsConstructor
 @Setter
 @Getter
 
@@ -25,7 +26,7 @@ private Long isbn;
 private String titulo;
 private Autor autor;
 private Editorial editorial;
-private Integer cantidadEjemplares;
+private Integer ejemplares;
 
 @Enumerated(EnumType.STRING)
 private Estado estado;
