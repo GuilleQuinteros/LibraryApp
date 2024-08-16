@@ -25,7 +25,7 @@ private Long isbn;
 private String titulo;
 private Autor autor;
 private Editorial editorial;
-private Integer cantidadEjemplares;
+private Integer ejemplares;
 
 @Enumerated(EnumType.STRING)
 private Estado estado;
